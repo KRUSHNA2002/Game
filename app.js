@@ -23,7 +23,7 @@ const showWinner=( userWin, userChoice , compChoice) =>{
     {
         userScore++;
         userScorepara.innerText=userScore; 
-        msg.innerText=`You Win ! your ${userChoice} beats ${compChoice}`;
+        msg.innerText=`You Win !  your ${userChoice} beats ${compChoice}`;
         msg.style.backgroundColor="green";
         if(userScore==11)
         {
@@ -37,7 +37,7 @@ const showWinner=( userWin, userChoice , compChoice) =>{
     {
         compScore++;
         compScorepara.innerText=compScore; 
-        msg.innerText=`You Loose ${compChoice} beats your ${userChoice}`;
+        msg.innerText=`You Loose   ${compChoice} beats your ${userChoice}`;
         msg.style.backgroundColor="red";
         if(compScore==11)
         {
@@ -51,7 +51,7 @@ const showWinner=( userWin, userChoice , compChoice) =>{
 const drawGame=()=>{
 
     // console.log("game was Draw");
-    msg.innerText="Macth will Draw , Play Again !";
+    msg.innerText="Macth will Draw ,  Play Again !";
     msg.style.backgroundColor=" #081B31 ";
 
 

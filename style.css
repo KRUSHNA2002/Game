@@ -74,9 +74,15 @@ img
 {
     background-color: #081B31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline;
     padding: 1rem;
     border-radius: 15px;
 
 }
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
